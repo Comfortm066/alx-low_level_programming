@@ -1,18 +1,22 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
+ *
+ * Description: print alphabet in lowcase without q nd e
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char letter = 'a';
+	char ch = 'a';
 
-	while (letter <= 'z'){
-		if (letter != 'e' && letter != 'q')
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(letter);
-		letter++;
-	}}
+	if (ch != 'e' && ch != 'q')
+	{
+		putchar(ch);
+	}
+	}
+	putchar('\n');
 	return (0);
 }
