@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: print 0, 1, -9 with comma and spaces
+ * Description: print 0, 1, -9 with spaces
  *
  *
  * Return: Always 0 (Success)
