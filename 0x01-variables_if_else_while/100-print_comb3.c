@@ -9,30 +9,37 @@
  */
 int main(void)
 {
-	int digit1 = 0;
-	int digit2 = 0;
+	int a = '0';
+	int b = '0';
 
-	while (digit1 <= 9)
+	while (a <= '9')
 	{
-		digit2 - 0;
-		while (digit2 <= 9)
-		{
-			if (digit1 != digit2 && digit1 - digit2)
-			{
-				putchar(digit1 - 48);
-				putchar(digit2 - 48);
+		while (b <= '9')
 
-				if (digit1 - digit2 != 17)
+	{
+		if (!(a > b || a == b))
+
+		{
+			putchar(a);
+			putchar(b);
+			if (a == '8' && b == '9')
+			{
+				putchar('\n');
+			}
+			else
 				{
 					putchar(',');
 					putchar(' ');
-				}
 			}
-			digit2++;
-		}
-		digit1++;
+			}
+		b++;
 	}
-	putchar('\n');
+		b = '0';
+
+		a++;
+	}
 
 	return (0);
 }
+
+
