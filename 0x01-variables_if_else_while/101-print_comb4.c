@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: print all possible different combinations of two digits
+ * Description: print all possible different combinations of three digits
  *
  *
  * Return: Always 0 (Success)
@@ -25,7 +25,7 @@ int main(void)
 					putchar(a);
 					putchar(b);
 					putchar(c);
-					if (!(a == '7' && b == '8' && c == '9'))
+				if (!(a == '7' && b == '8' && c == '9'))
 							{
 								putchar(',');
 								putchar(' ');
