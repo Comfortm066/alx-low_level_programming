@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: print 0 1 -9 with spaces
+ * Description: print 0, 1, -9 with spaces
  *
  *
  * Return: Always 0 (Success)
@@ -17,7 +17,7 @@ int main(void)
 	if (i != 9)
 	{
 	putchar(',');
-	putchar(',');
+	putchar(' ');
 	}
 	i++;
 	}
