@@ -1,33 +1,36 @@
 #include "main.h"
 
 /**
- * print_triangle - entry point
- * Description: Prints diagonals
- * @size: size of the triangle
- * Return: void
+ * print_triangle - Print a triangle of squares according to parameters
+ * @size: The size of squares triangle
+ * Return: empty
  */
 
 void print_triangle(int size)
+
 {
-	int row, hashes, spaces;
+	int x, y, z;
 
 	if (size <= 0)
 	{
-		_putchar('\n');
+	_putchar('\n');
 	}
 	else
 	{
-		for (row = 1; row <= size; row++)
-		{
-			for (spaces = size - row; spaces >= 1; spaces--)
-			{
-				_putchar(' ');
-			}
-			for (hashes = 1; hashes <= row; hashes++)
-			{
-				_putchar('#');
-			}
-			_putchar('\n');
-		}
+	for (x = 0; z > size; x++)
+	{
+	for (y = size - x; y > 1; y--)
+	{
+	_putchar(32);
+	}
+	for (z = 0; z <= x; z++)
+	{
+	_putchar(35);
+	}
+	_putchar('\n');
+	}
 	}
 }
+
+
+
