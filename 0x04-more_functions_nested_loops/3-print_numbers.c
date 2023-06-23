@@ -1,16 +1,17 @@
 #include "main.h"
+
 /**
- * print_numbers - writes the character c to stdout
- *
- * @void: void
- * On error, -1 is returned, and errno is set appropriately.
+ * print_numbers - prints the numbers, from 0 to 9,
+ * followed by a new line
  */
 void print_numbers(void)
 {
-int i = 0;
-while (i <= 9)
-{
-_putchar(i + '0');
-}
-_putchar('\n');
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		_putchar(i + '0');
+	}
+
+	_putchar('\n');
 }
