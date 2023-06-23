@@ -1,19 +1,19 @@
 #include "main.h"
 /**
- * _isdigit - writes the character c to stdout
- * @c: The character to print
+ * _isdigit - check if parameter is a digit or character
  *
- * Return: On success 1.
- * On error, -1 is returned, and erro is set appropriately.
+ * @c: parameter
+ *Return: 1 if its a number and 0 otherwise
  */
 int _isdigit(int c)
 {
-if (c >= 0 && c <= 9)
-{
-return (1);
+	if (c >= 48 && c <= 57)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
-else
-{
-return (0);
-}
-}
+
