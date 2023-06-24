@@ -1,30 +1,27 @@
 #include "main.h"
 
 /**
- * print_triangle - entry point
- * owned by Bwave/Bright Daniel
- * Description: Prints diagonals
+ * print_triangle - prints a triangle, followed by a new line
  *@size: size of the triangle
  * Return: void
  */
-
 void print_triangle(int size)
 {
-	int row, hashes, spaces;
-
 	if (size <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		for (row = 1; row <= size; row++)
+		int a, b;
+
+		for (a = 1; a <= size; a++)
 		{
-			for (spaces = size - row; spaces >= 1; spaces--)
+			for (b = a; b < size; b++)
 			{
 				_putchar(' ');
 			}
-			for (hashes = 1; hashes <= row; hashes++)
+			for (b = 1; b <= a; b++)
 			{
 				_putchar('#');
 			}
